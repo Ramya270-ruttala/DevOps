@@ -1,5 +1,9 @@
 name: SpringBoot Pipeline
 
+permissions:
+  contents: write
+  checks: write
+
 on: 
   push:
     branches:
