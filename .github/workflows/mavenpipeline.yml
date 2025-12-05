@@ -80,7 +80,7 @@ jobs:
           name: junit-xml-reports 
           path: target/surefire-reports/*
       - name: Publish Test Results
-        uses: drony/test-reporter@v1
+        uses: dorny/test-reporter@v1
         if: always()
         with:
           name: Maven Tests
